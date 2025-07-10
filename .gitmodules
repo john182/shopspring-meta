@@ -1,0 +1,3 @@
+[submodule "microservices/shop-spring-ordering"]
+	path = microservices/shop-spring-ordering
+	url = git@github.com:john182/shop-spring-ordering.git
