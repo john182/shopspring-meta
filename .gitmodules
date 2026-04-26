@@ -4,3 +4,6 @@
 [submodule "microservices/shop-spring-docs"]
 	path = microservices/shop-spring-docs
 	url = git@github.com:john182/shop-spring-docs.git
+[submodule "microservices/billing-scheduler"]
+	path = microservices/billing-scheduler
+	url = git@github.com:john182/shop-spring-billing-scheduler.git
