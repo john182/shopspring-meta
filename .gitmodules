@@ -11,3 +11,11 @@
 	path = microservices/shop-service-registry
 	url = https://github.com/john182/shop-service-registry.git
 	branch = main
+[submodule "microservices/shop-product-catalog"]
+	path = microservices/shop-product-catalog
+	url = git@github.com:john182/shop-spring-product-catalog.git
+	branch = main
+[submodule "microservices/shop-authorization-server"]
+	path = microservices/shop-authorization-server
+	url = git@github.com:john182/shop-spring-authorization-server.git
+	branch = main
