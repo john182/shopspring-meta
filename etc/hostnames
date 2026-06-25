@@ -1,0 +1,11 @@
+127.0.0.1 shop-mongodb-1
+127.0.0.1 shop-mongodb-2
+127.0.0.1 shop-mongodb-3
+
+127.0.0.1 shop-localstack
+127.0.0.1 s3.shop-localstack
+127.0.0.1 shop-product-image.algashop-localstack
+
+127.0.0.1 authorization-server
+127.0.0.1 fastpay
+127.0.0.1 service-registry
