@@ -7,3 +7,7 @@
 [submodule "microservices/billing-scheduler"]
 	path = microservices/billing-scheduler
 	url = git@github.com:john182/shop-spring-billing-scheduler.git
+[submodule "microservices/shop-service-registry"]
+	path = microservices/shop-service-registry
+	url = https://github.com/john182/shop-service-registry.git
+	branch = main
