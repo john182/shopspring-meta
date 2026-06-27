@@ -6,6 +6,18 @@ services:
     volumes:
       - ./etc/wiremock:/home/wiremock/mappings
     command: --verbose --disable-http2-plain
+  shop-pgadmin:
+    image: dpage/pgadmin4:latest
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@email.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmindata:/var/lib/pgadmin
+    depends_on:
+      - shop-postgres
+    restart: unless-stopped
   shop-postgres:
     image: postgres:17-alpine
     deploy:
@@ -26,3 +38,4 @@ services:
       retries: 3
 volumes:
   shop-postgres:
+  pgadmindata:
