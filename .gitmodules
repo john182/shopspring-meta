@@ -19,3 +19,6 @@
 	path = microservices/shop-authorization-server
 	url = git@github.com:john182/shop-spring-authorization-server.git
 	branch = main
+[submodule "microservices/shop-billing"]
+	path = microservices/shop-billing
+	url = git@github.com:john182/shop-billing.git
