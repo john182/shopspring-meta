@@ -1,12 +1,15 @@
 [submodule "microservices/shop-spring-ordering"]
 	path = microservices/shop-spring-ordering
 	url = git@github.com:john182/shop-spring-ordering.git
+	branch = main
 [submodule "microservices/shop-spring-docs"]
 	path = microservices/shop-spring-docs
 	url = git@github.com:john182/shop-spring-docs.git
+	branch = main
 [submodule "microservices/billing-scheduler"]
 	path = microservices/billing-scheduler
 	url = git@github.com:john182/shop-spring-billing-scheduler.git
+	branch = main
 [submodule "microservices/shop-service-registry"]
 	path = microservices/shop-service-registry
 	url = https://github.com/john182/shop-service-registry.git
@@ -22,3 +25,7 @@
 [submodule "microservices/shop-billing"]
 	path = microservices/shop-billing
 	url = git@github.com:john182/shop-billing.git
+[submodule "template"]
+	path = template
+	url = git@github.com:john182/micro-service-template.git
+	branch = main
